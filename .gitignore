@@ -1,0 +1,10 @@
+config.json
+produtos.json
+fotos/
+fotos_padrao/
+logos/
+*.log
+index.html
+catalogo_pdf.html
+*.pdf
+*.png

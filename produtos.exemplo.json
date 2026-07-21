@@ -1,0 +1,9 @@
+{
+  "order": ["Bebidas", "Mercearia"],
+  "marcas": ["Marca A", "Marca B"],
+  "prods": [
+    { "cod": "1001", "nome": "AGUA MINERAL 500ML C/12", "um": "CX", "marca": "Marca A" },
+    { "cod": "1002", "nome": "SUCO DE UVA INTEGRAL 1L", "um": "UN", "marca": "Marca A" },
+    { "cod": "2001", "nome": "ARROZ BRANCO TIPO 1 5KG", "um": "FD", "marca": "Marca B" }
+  ]
+}

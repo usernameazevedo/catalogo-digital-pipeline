@@ -1,0 +1,17 @@
+{
+  "nome": "Minha Distribuidora",
+  "titulo": "Catálogo de Produtos",
+  "logo": "logo.png",
+  "rodape": "Minha Distribuidora · Catálogo digital · Imagens meramente ilustrativas",
+  "atualizado": "julho de 2026",
+  "cores": {
+    "primaria": "#8dc63f",
+    "primaria_escura": "#6ea52c",
+    "destaque": "#f58232",
+    "texto": "#231f20",
+    "cinza": "#6b7261",
+    "borda": "#e6e9df",
+    "fundo": "#ffffff",
+    "fundo2": "#f7f8f4"
+  }
+}
