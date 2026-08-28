@@ -68,6 +68,11 @@ python3 build_pdf.py
 - Python 3.10+ com Pillow e rembg (`requirements.txt`)
 - Google Chrome (para o PDF)
 
+## Author
+
+Built by **Luis Azevedo** — available for freelance / consulting work on video, short-form content, and automation.
+📬 [username.azevedo@gmail.com](mailto:username.azevedo@gmail.com)
+
 ## Licença
 
 MIT
