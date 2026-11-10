@@ -10,7 +10,7 @@ Nasceu de um caso real: catálogo de atacado com 255 produtos e 20+ marcas, entr
 produtos.json + fotos/  →  padronizar_fotos.py  →  fotos_padrao/
                         →  build_catalogo.py    →  index.html   (versão web, self-contained)
                         →  build_pdf.py         →  Catalogo.pdf (versão A4 leve)
-index.html              →  publicar-limpo       →  https://<org>.github.io/<slug>/
+index.html              →  publicar-limpo       →  https://entregas.seudominio.com/<slug>/
 ```
 
 ### 1. Dados
@@ -43,11 +43,11 @@ Mesmo conteúdo em layout A4 de impressão (6 colunas, fotos reduzidas a 130px/q
 
 ### 5. Link limpo — publicação
 
-O `index.html` é publicado numa URL neutra via GitHub Pages de uma organização com nome genérico, usando o [publicar-limpo](https://github.com/usernameazevedo/publicar-limpo):
+O `index.html` é publicado num link limpo no seu próprio domínio (Cloudflare Pages), usando o [publicar-limpo](https://github.com/usernameazevedo/publicar-limpo):
 
 ```bash
 publicar-limpo pasta-do-catalogo/ meu-catalogo "descrição"
-# → https://<org>.github.io/meu-catalogo/
+# → https://entregas.seudominio.com/meu-catalogo/
 ```
 
 Republicar o mesmo slug atualiza o mesmo link — o cliente nunca precisa receber URL nova.
@@ -71,7 +71,7 @@ python3 build_pdf.py
 ## Author
 
 Built by **Luis Azevedo** — available for freelance / consulting work on video, short-form content, and automation.
-📬 [username.azevedo@gmail.com](mailto:username.azevedo@gmail.com)
+📬 [contato@midianoxx.com](mailto:contato@midianoxx.com)
 
 ## Licença
 
